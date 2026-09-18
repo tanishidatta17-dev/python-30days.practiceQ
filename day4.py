@@ -1,4 +1,3 @@
-cat > day4.py << 'PYEOF'
 # Day 4 - ORF Finder + Protein Translation
 
 def translate_codon(codon):
@@ -61,4 +60,3 @@ else:
 # 3. Nucleotide composition dict method
 comp = {b: seq.count(b) for b in "ATGC"}
 print("\nComposition:", comp)
-PYEOF
